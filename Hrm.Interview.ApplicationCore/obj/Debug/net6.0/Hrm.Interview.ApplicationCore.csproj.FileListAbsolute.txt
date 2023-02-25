@@ -1,0 +1,14 @@
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Interview.ApplicationCore\bin\Debug\net6.0\Hrm.Interview.ApplicationCore.deps.json
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Interview.ApplicationCore\bin\Debug\net6.0\Hrm.Interview.ApplicationCore.runtimeconfig.json
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Interview.ApplicationCore\bin\Debug\net6.0\Hrm.Interview.ApplicationCore.dll
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Interview.ApplicationCore\bin\Debug\net6.0\Hrm.Interview.ApplicationCore.pdb
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Interview.ApplicationCore\obj\Debug\net6.0\Hrm.Interview.ApplicationCore.csproj.AssemblyReference.cache
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Interview.ApplicationCore\obj\Debug\net6.0\Hrm.Interview.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Interview.ApplicationCore\obj\Debug\net6.0\Hrm.Interview.ApplicationCore.AssemblyInfoInputs.cache
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Interview.ApplicationCore\obj\Debug\net6.0\Hrm.Interview.ApplicationCore.AssemblyInfo.cs
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Interview.ApplicationCore\obj\Debug\net6.0\Hrm.Interview.ApplicationCore.csproj.CoreCompileInputs.cache
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Interview.ApplicationCore\obj\Debug\net6.0\Hrm.Interview.ApplicationCore.dll
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Interview.ApplicationCore\obj\Debug\net6.0\refint\Hrm.Interview.ApplicationCore.dll
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Interview.ApplicationCore\obj\Debug\net6.0\Hrm.Interview.ApplicationCore.pdb
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Interview.ApplicationCore\obj\Debug\net6.0\Hrm.Interview.ApplicationCore.genruntimeconfig.cache
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Interview.ApplicationCore\obj\Debug\net6.0\ref\Hrm.Interview.ApplicationCore.dll

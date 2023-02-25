@@ -1,0 +1,17 @@
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.Infrastructure\bin\Debug\net6.0\Hrm.Authentication.Infrastructure.deps.json
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.Infrastructure\bin\Debug\net6.0\Hrm.Authentication.Infrastructure.runtimeconfig.json
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.Infrastructure\bin\Debug\net6.0\Hrm.Authentication.Infrastructure.dll
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.Infrastructure\bin\Debug\net6.0\Hrm.Authentication.Infrastructure.pdb
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.Infrastructure\bin\Debug\net6.0\Hrm.Authentication.ApplicationCore.dll
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.Infrastructure\bin\Debug\net6.0\Hrm.Authentication.ApplicationCore.pdb
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.Infrastructure\obj\Debug\net6.0\Hrm.Authentication.Infrastructure.csproj.AssemblyReference.cache
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.Infrastructure\obj\Debug\net6.0\Hrm.Authentication.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.Infrastructure\obj\Debug\net6.0\Hrm.Authentication.Infrastructure.AssemblyInfoInputs.cache
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.Infrastructure\obj\Debug\net6.0\Hrm.Authentication.Infrastructure.AssemblyInfo.cs
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.Infrastructure\obj\Debug\net6.0\Hrm.Authentication.Infrastructure.csproj.CoreCompileInputs.cache
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.Infrastructure\obj\Debug\net6.0\Hrm.Authentication.Infrastructure.csproj.CopyComplete
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.Infrastructure\obj\Debug\net6.0\Hrm.Authentication.Infrastructure.dll
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.Infrastructure\obj\Debug\net6.0\refint\Hrm.Authentication.Infrastructure.dll
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.Infrastructure\obj\Debug\net6.0\Hrm.Authentication.Infrastructure.pdb
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.Infrastructure\obj\Debug\net6.0\Hrm.Authentication.Infrastructure.genruntimeconfig.cache
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.Infrastructure\obj\Debug\net6.0\ref\Hrm.Authentication.Infrastructure.dll

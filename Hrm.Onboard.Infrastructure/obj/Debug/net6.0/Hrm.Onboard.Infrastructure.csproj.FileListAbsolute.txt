@@ -1,0 +1,17 @@
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Onboard.Infrastructure\bin\Debug\net6.0\Hrm.Onboard.Infrastructure.deps.json
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Onboard.Infrastructure\bin\Debug\net6.0\Hrm.Onboard.Infrastructure.runtimeconfig.json
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Onboard.Infrastructure\bin\Debug\net6.0\Hrm.Onboard.Infrastructure.dll
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Onboard.Infrastructure\bin\Debug\net6.0\Hrm.Onboard.Infrastructure.pdb
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Onboard.Infrastructure\bin\Debug\net6.0\Hrm.Onboard.ApplicationCore.dll
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Onboard.Infrastructure\bin\Debug\net6.0\Hrm.Onboard.ApplicationCore.pdb
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Onboard.Infrastructure\obj\Debug\net6.0\Hrm.Onboard.Infrastructure.csproj.AssemblyReference.cache
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Onboard.Infrastructure\obj\Debug\net6.0\Hrm.Onboard.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Onboard.Infrastructure\obj\Debug\net6.0\Hrm.Onboard.Infrastructure.AssemblyInfoInputs.cache
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Onboard.Infrastructure\obj\Debug\net6.0\Hrm.Onboard.Infrastructure.AssemblyInfo.cs
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Onboard.Infrastructure\obj\Debug\net6.0\Hrm.Onboard.Infrastructure.csproj.CoreCompileInputs.cache
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Onboard.Infrastructure\obj\Debug\net6.0\Hrm.Onboard.Infrastructure.csproj.CopyComplete
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Onboard.Infrastructure\obj\Debug\net6.0\Hrm.Onboard.Infrastructure.dll
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Onboard.Infrastructure\obj\Debug\net6.0\refint\Hrm.Onboard.Infrastructure.dll
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Onboard.Infrastructure\obj\Debug\net6.0\Hrm.Onboard.Infrastructure.pdb
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Onboard.Infrastructure\obj\Debug\net6.0\Hrm.Onboard.Infrastructure.genruntimeconfig.cache
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Onboard.Infrastructure\obj\Debug\net6.0\ref\Hrm.Onboard.Infrastructure.dll

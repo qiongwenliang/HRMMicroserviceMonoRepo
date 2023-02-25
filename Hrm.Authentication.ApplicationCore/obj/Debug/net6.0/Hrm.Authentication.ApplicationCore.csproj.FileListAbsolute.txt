@@ -1,0 +1,14 @@
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.ApplicationCore\bin\Debug\net6.0\Hrm.Authentication.ApplicationCore.deps.json
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.ApplicationCore\bin\Debug\net6.0\Hrm.Authentication.ApplicationCore.runtimeconfig.json
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.ApplicationCore\bin\Debug\net6.0\Hrm.Authentication.ApplicationCore.dll
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.ApplicationCore\bin\Debug\net6.0\Hrm.Authentication.ApplicationCore.pdb
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.ApplicationCore\obj\Debug\net6.0\Hrm.Authentication.ApplicationCore.csproj.AssemblyReference.cache
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.ApplicationCore\obj\Debug\net6.0\Hrm.Authentication.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.ApplicationCore\obj\Debug\net6.0\Hrm.Authentication.ApplicationCore.AssemblyInfoInputs.cache
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.ApplicationCore\obj\Debug\net6.0\Hrm.Authentication.ApplicationCore.AssemblyInfo.cs
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.ApplicationCore\obj\Debug\net6.0\Hrm.Authentication.ApplicationCore.csproj.CoreCompileInputs.cache
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.ApplicationCore\obj\Debug\net6.0\Hrm.Authentication.ApplicationCore.dll
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.ApplicationCore\obj\Debug\net6.0\refint\Hrm.Authentication.ApplicationCore.dll
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.ApplicationCore\obj\Debug\net6.0\Hrm.Authentication.ApplicationCore.pdb
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.ApplicationCore\obj\Debug\net6.0\Hrm.Authentication.ApplicationCore.genruntimeconfig.cache
+F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Authentication.ApplicationCore\obj\Debug\net6.0\ref\Hrm.Authentication.ApplicationCore.dll
