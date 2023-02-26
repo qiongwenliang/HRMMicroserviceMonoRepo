@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+QMfM3m099TT/85lGpIVSIdc3v/PZef8CriLVa3aIndMsxiHHPh9hE6gD7ub7+HIDelFJnu2fwYn32EKi9ThCw==",
+  "dgSpecHash": "F3SKvmfLAyEDeeJF1Qe8p1povntCwYZRGdsqC8Z4c/D8a3SvgvMaz2fu64vsf5HhHS9AfkNudGnCujE64zGGVQ==",
   "success": true,
-  "projectFilePath": "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Onboard.ApplicationCore\\Hrm.Onboard.ApplicationCore.csproj",
+  "projectFilePath": "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Onboard.ApplicationCore\\Hrm.Onboard.ApplicationCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cater_yrqwkk6\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\cater_yrqwkk6\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

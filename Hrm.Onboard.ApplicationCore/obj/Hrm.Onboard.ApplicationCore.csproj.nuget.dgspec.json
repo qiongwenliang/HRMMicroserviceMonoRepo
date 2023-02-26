@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Onboard.ApplicationCore\\Hrm.Onboard.ApplicationCore.csproj": {}
+    "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Onboard.ApplicationCore\\Hrm.Onboard.ApplicationCore.csproj": {}
   },
   "projects": {
-    "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Onboard.ApplicationCore\\Hrm.Onboard.ApplicationCore.csproj": {
+    "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Onboard.ApplicationCore\\Hrm.Onboard.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Onboard.ApplicationCore\\Hrm.Onboard.ApplicationCore.csproj",
+        "projectUniqueName": "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Onboard.ApplicationCore\\Hrm.Onboard.ApplicationCore.csproj",
         "projectName": "Hrm.Onboard.ApplicationCore",
-        "projectPath": "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Onboard.ApplicationCore\\Hrm.Onboard.ApplicationCore.csproj",
+        "projectPath": "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Onboard.ApplicationCore\\Hrm.Onboard.ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\cater_yrqwkk6\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Onboard.ApplicationCore\\obj\\",
+        "outputPath": "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Onboard.ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

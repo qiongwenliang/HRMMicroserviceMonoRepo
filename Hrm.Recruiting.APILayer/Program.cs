@@ -1,4 +1,8 @@
+using Hrm.Recruiting.ApplicationCore.Contract.Repository;
+using Hrm.Recruiting.ApplicationCore.Contract.Service;
 using Hrm.Recruiting.Infrastructure.Data;
+using Hrm.Recruiting.Infrastructure.Repository;
+using Hrm.Recruiting.Infrastructure.Service;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +17,32 @@ builder.Services.AddDbContext<RecruitmentDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("RecruitmentDb"));
 });
 
+
+//Dependency Injection
+builder.Services.AddScoped<ICandidateServiceAsync, CandidateServiceAsync>();
+builder.Services.AddScoped<ICandidateRepositoryAsync, CandidateRepositoryAsync>();
+builder.Services.AddScoped<IJobCategoryServiceAsync, JobCategoryServiceAsync>();
+builder.Services.AddScoped<IJobCategoryRepositoryAsync, JobCategoryRepositoryAsync>();
+builder.Services.AddScoped<IJobRequirementServiceAsync, JobRequirementServiceAsync>();
+builder.Services.AddScoped<IJobRequirementRepositoryAsync, JobRequirementRepositoryAsync>();    
+builder.Services.AddScoped<ISubmissionServiceAsync, SubmissionServiceAsync>();  
+builder.Services.AddScoped<ISubmissionRepositoryAsync, SubmissionRepositoryAsync>();
+builder.Services.AddScoped<ISubmissionStatusServiceAsync, SubmissionStatusServiceAsync>();
+builder.Services.AddScoped<ISubmissionStatusRepositoryAsync, SubmissionStatusRepositoryAsync>();
+
+
+
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.AllowAnyOrigin();
+        policy.AllowAnyMethod();
+        policy.AllowAnyHeader();
+    });
+});
+
+
 var app = builder.Build();
 
 
@@ -23,28 +53,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+app.UseRouting(); 
 
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast = Enumerable.Range(1, 5).Select(index =>
-       new WeatherForecast
-       (
-           DateTime.Now.AddDays(index),
-           Random.Shared.Next(-20, 55),
-           summaries[Random.Shared.Next(summaries.Length)]
-       ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
+app.UseCors();
+
+app.UseEndpoints(endpoints => { endpoints.MapControllers(); }); 
 
 app.Run();
 
-internal record WeatherForecast(DateTime Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

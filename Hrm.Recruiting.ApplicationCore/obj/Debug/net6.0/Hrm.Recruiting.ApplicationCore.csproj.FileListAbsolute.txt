@@ -12,3 +12,17 @@ F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Recruiting.ApplicationCore\obj\D
 F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Recruiting.ApplicationCore\obj\Debug\net6.0\Hrm.Recruiting.ApplicationCore.pdb
 F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Recruiting.ApplicationCore\obj\Debug\net6.0\Hrm.Recruiting.ApplicationCore.genruntimeconfig.cache
 F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Recruiting.ApplicationCore\obj\Debug\net6.0\ref\Hrm.Recruiting.ApplicationCore.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Recruiting.ApplicationCore\bin\Debug\net6.0\Hrm.Recruiting.ApplicationCore.deps.json
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Recruiting.ApplicationCore\bin\Debug\net6.0\Hrm.Recruiting.ApplicationCore.runtimeconfig.json
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Recruiting.ApplicationCore\bin\Debug\net6.0\Hrm.Recruiting.ApplicationCore.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Recruiting.ApplicationCore\bin\Debug\net6.0\Hrm.Recruiting.ApplicationCore.pdb
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Recruiting.ApplicationCore\obj\Debug\net6.0\Hrm.Recruiting.ApplicationCore.csproj.AssemblyReference.cache
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Recruiting.ApplicationCore\obj\Debug\net6.0\Hrm.Recruiting.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Recruiting.ApplicationCore\obj\Debug\net6.0\Hrm.Recruiting.ApplicationCore.AssemblyInfoInputs.cache
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Recruiting.ApplicationCore\obj\Debug\net6.0\Hrm.Recruiting.ApplicationCore.AssemblyInfo.cs
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Recruiting.ApplicationCore\obj\Debug\net6.0\Hrm.Recruiting.ApplicationCore.csproj.CoreCompileInputs.cache
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Recruiting.ApplicationCore\obj\Debug\net6.0\Hrm.Recruiting.ApplicationCore.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Recruiting.ApplicationCore\obj\Debug\net6.0\refint\Hrm.Recruiting.ApplicationCore.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Recruiting.ApplicationCore\obj\Debug\net6.0\Hrm.Recruiting.ApplicationCore.pdb
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Recruiting.ApplicationCore\obj\Debug\net6.0\Hrm.Recruiting.ApplicationCore.genruntimeconfig.cache
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Recruiting.ApplicationCore\obj\Debug\net6.0\ref\Hrm.Recruiting.ApplicationCore.dll

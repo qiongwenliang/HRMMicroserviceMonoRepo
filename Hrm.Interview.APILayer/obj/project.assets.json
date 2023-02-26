@@ -3629,11 +3629,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Interview.APILayer\\Hrm.Interview.APILayer.csproj",
+      "projectUniqueName": "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Interview.APILayer\\Hrm.Interview.APILayer.csproj",
       "projectName": "Hrm.Interview.APILayer",
-      "projectPath": "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Interview.APILayer\\Hrm.Interview.APILayer.csproj",
+      "projectPath": "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Interview.APILayer\\Hrm.Interview.APILayer.csproj",
       "packagesPath": "C:\\Users\\cater_yrqwkk6\\.nuget\\packages\\",
-      "outputPath": "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Interview.APILayer\\obj\\",
+      "outputPath": "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Interview.APILayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3654,8 +3654,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Interview.Infrastructure\\Hrm.Interview.Infrastructure.csproj": {
-              "projectPath": "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Interview.Infrastructure\\Hrm.Interview.Infrastructure.csproj"
+            "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Interview.Infrastructure\\Hrm.Interview.Infrastructure.csproj": {
+              "projectPath": "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Interview.Infrastructure\\Hrm.Interview.Infrastructure.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nhnT24MVee8sX9fRq44oJiU/qUC2M/Kvj9IdrUbDjWxc+rK7X61ZD370LBaep+1bCpcbXhi6MprmXCJlUFheNg==",
+  "dgSpecHash": "gIcn9iTK483lNIjmF5YM2BA12WfokqW1lnTFX6dpNJx/sBrFgpimhnGJBjpTI8i9WIIk23I92xna35MOrDIIZA==",
   "success": true,
-  "projectFilePath": "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Interview.ApplicationCore\\Hrm.Interview.ApplicationCore.csproj",
+  "projectFilePath": "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Interview.ApplicationCore\\Hrm.Interview.ApplicationCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cater_yrqwkk6\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\cater_yrqwkk6\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

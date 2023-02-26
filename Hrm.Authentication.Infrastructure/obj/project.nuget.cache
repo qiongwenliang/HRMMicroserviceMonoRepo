@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n66zddWxfYzXKerh8oeK8BT/Xz57au15wzdbFf3v0FsFHFwXF87AbVoIf5TJefGrQ36g+uJX3JFBYhpDJB8QBg==",
+  "dgSpecHash": "YQVaoylNJwnu7zXb732AenEl1jC2iaFHAxESSfiSw8nAU8CG5cqrMCedaaNxpCYDlygqlzlKWCGyImE14D2chQ==",
   "success": true,
-  "projectFilePath": "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Authentication.Infrastructure\\Hrm.Authentication.Infrastructure.csproj",
+  "projectFilePath": "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Authentication.Infrastructure\\Hrm.Authentication.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cater_yrqwkk6\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\cater_yrqwkk6\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

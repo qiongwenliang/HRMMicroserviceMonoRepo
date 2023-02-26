@@ -18,5 +18,7 @@ namespace Hrm.Recruiting.Infrastructure.Data
         public DbSet<Candidate> Candidate { get; set; }
         public DbSet<JobRequirement> JobRequirement { get; set; }
         public DbSet<JobCategory> JobCategory { get; set; }
+        public DbSet<Submission> Submission { get; set; }
+        public DbSet<SubmissionStatus> SubmissionStatus { get; set; }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Recruiting.ApplicationCore\\Hrm.Recruiting.ApplicationCore.csproj": {}
+    "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Recruiting.ApplicationCore\\Hrm.Recruiting.ApplicationCore.csproj": {}
   },
   "projects": {
-    "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Recruiting.ApplicationCore\\Hrm.Recruiting.ApplicationCore.csproj": {
+    "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Recruiting.ApplicationCore\\Hrm.Recruiting.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Recruiting.ApplicationCore\\Hrm.Recruiting.ApplicationCore.csproj",
+        "projectUniqueName": "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Recruiting.ApplicationCore\\Hrm.Recruiting.ApplicationCore.csproj",
         "projectName": "Hrm.Recruiting.ApplicationCore",
-        "projectPath": "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Recruiting.ApplicationCore\\Hrm.Recruiting.ApplicationCore.csproj",
+        "projectPath": "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Recruiting.ApplicationCore\\Hrm.Recruiting.ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\cater_yrqwkk6\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Recruiting.ApplicationCore\\obj\\",
+        "outputPath": "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Recruiting.ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

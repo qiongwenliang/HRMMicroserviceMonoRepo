@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Authentication.Infrastructure\\Hrm.Authentication.Infrastructure.csproj": {}
+    "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Authentication.Infrastructure\\Hrm.Authentication.Infrastructure.csproj": {}
   },
   "projects": {
-    "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Authentication.ApplicationCore\\Hrm.Authentication.ApplicationCore.csproj": {
+    "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Authentication.ApplicationCore\\Hrm.Authentication.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Authentication.ApplicationCore\\Hrm.Authentication.ApplicationCore.csproj",
+        "projectUniqueName": "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Authentication.ApplicationCore\\Hrm.Authentication.ApplicationCore.csproj",
         "projectName": "Hrm.Authentication.ApplicationCore",
-        "projectPath": "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Authentication.ApplicationCore\\Hrm.Authentication.ApplicationCore.csproj",
+        "projectPath": "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Authentication.ApplicationCore\\Hrm.Authentication.ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\cater_yrqwkk6\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Authentication.ApplicationCore\\obj\\",
+        "outputPath": "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Authentication.ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -74,14 +74,14 @@
         }
       }
     },
-    "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Authentication.Infrastructure\\Hrm.Authentication.Infrastructure.csproj": {
+    "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Authentication.Infrastructure\\Hrm.Authentication.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Authentication.Infrastructure\\Hrm.Authentication.Infrastructure.csproj",
+        "projectUniqueName": "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Authentication.Infrastructure\\Hrm.Authentication.Infrastructure.csproj",
         "projectName": "Hrm.Authentication.Infrastructure",
-        "projectPath": "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Authentication.Infrastructure\\Hrm.Authentication.Infrastructure.csproj",
+        "projectPath": "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Authentication.Infrastructure\\Hrm.Authentication.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\cater_yrqwkk6\\.nuget\\packages\\",
-        "outputPath": "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Authentication.Infrastructure\\obj\\",
+        "outputPath": "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Authentication.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -102,8 +102,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Authentication.ApplicationCore\\Hrm.Authentication.ApplicationCore.csproj": {
-                "projectPath": "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Authentication.ApplicationCore\\Hrm.Authentication.ApplicationCore.csproj"
+              "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Authentication.ApplicationCore\\Hrm.Authentication.ApplicationCore.csproj": {
+                "projectPath": "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Authentication.ApplicationCore\\Hrm.Authentication.ApplicationCore.csproj"
               }
             }
           }

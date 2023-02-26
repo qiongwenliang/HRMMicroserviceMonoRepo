@@ -12,3 +12,17 @@ F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Onboard.ApplicationCore\obj\Debu
 F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Onboard.ApplicationCore\obj\Debug\net6.0\Hrm.Onboard.ApplicationCore.pdb
 F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Onboard.ApplicationCore\obj\Debug\net6.0\Hrm.Onboard.ApplicationCore.genruntimeconfig.cache
 F:\ASP.NetProjects\HRMMicroservicesMonoRepo\Hrm.Onboard.ApplicationCore\obj\Debug\net6.0\ref\Hrm.Onboard.ApplicationCore.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Onboard.ApplicationCore\bin\Debug\net6.0\Hrm.Onboard.ApplicationCore.deps.json
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Onboard.ApplicationCore\bin\Debug\net6.0\Hrm.Onboard.ApplicationCore.runtimeconfig.json
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Onboard.ApplicationCore\bin\Debug\net6.0\Hrm.Onboard.ApplicationCore.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Onboard.ApplicationCore\bin\Debug\net6.0\Hrm.Onboard.ApplicationCore.pdb
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Onboard.ApplicationCore\obj\Debug\net6.0\Hrm.Onboard.ApplicationCore.csproj.AssemblyReference.cache
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Onboard.ApplicationCore\obj\Debug\net6.0\Hrm.Onboard.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Onboard.ApplicationCore\obj\Debug\net6.0\Hrm.Onboard.ApplicationCore.AssemblyInfoInputs.cache
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Onboard.ApplicationCore\obj\Debug\net6.0\Hrm.Onboard.ApplicationCore.AssemblyInfo.cs
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Onboard.ApplicationCore\obj\Debug\net6.0\Hrm.Onboard.ApplicationCore.csproj.CoreCompileInputs.cache
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Onboard.ApplicationCore\obj\Debug\net6.0\Hrm.Onboard.ApplicationCore.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Onboard.ApplicationCore\obj\Debug\net6.0\refint\Hrm.Onboard.ApplicationCore.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Onboard.ApplicationCore\obj\Debug\net6.0\Hrm.Onboard.ApplicationCore.pdb
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Onboard.ApplicationCore\obj\Debug\net6.0\Hrm.Onboard.ApplicationCore.genruntimeconfig.cache
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Onboard.ApplicationCore\obj\Debug\net6.0\ref\Hrm.Onboard.ApplicationCore.dll

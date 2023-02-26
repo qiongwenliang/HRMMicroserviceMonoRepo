@@ -3307,11 +3307,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Interview.ApplicationCore\\Hrm.Interview.ApplicationCore.csproj",
+      "projectUniqueName": "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Interview.ApplicationCore\\Hrm.Interview.ApplicationCore.csproj",
       "projectName": "Hrm.Interview.ApplicationCore",
-      "projectPath": "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Interview.ApplicationCore\\Hrm.Interview.ApplicationCore.csproj",
+      "projectPath": "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Interview.ApplicationCore\\Hrm.Interview.ApplicationCore.csproj",
       "packagesPath": "C:\\Users\\cater_yrqwkk6\\.nuget\\packages\\",
-      "outputPath": "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Interview.ApplicationCore\\obj\\",
+      "outputPath": "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Interview.ApplicationCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

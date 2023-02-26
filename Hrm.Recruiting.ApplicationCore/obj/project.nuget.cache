@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/kMSNr/4F6L7VvXMAI8lYRidRjDlTUbMhLmQiO23PvaInX1eRVpjZngEj7CghnqLCVfMlD6oodA96j2+dVBytg==",
+  "dgSpecHash": "fgXD03c4azKzvVmC122SQHPlgoiE7b56aqk9w9M433AVhMhvhNdCqJuI1vl+wN9R3IY0WemCcFhlN+DAK8Hv1g==",
   "success": true,
-  "projectFilePath": "F:\\ASP.NetProjects\\HRMMicroservicesMonoRepo\\Hrm.Recruiting.ApplicationCore\\Hrm.Recruiting.ApplicationCore.csproj",
+  "projectFilePath": "F:\\ASP.NetProjects\\HRMMicroserviceMonoRepo\\Hrm.Recruiting.ApplicationCore\\Hrm.Recruiting.ApplicationCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cater_yrqwkk6\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\cater_yrqwkk6\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
