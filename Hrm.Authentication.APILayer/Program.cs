@@ -1,9 +1,31 @@
+using Hrm.Authentication.ApplicationCore.Contract.Repository;
+using Hrm.Authentication.ApplicationCore.Contract.Service;
+using Hrm.Authentication.Infrastructure.Data;
+using Hrm.Authentication.Infrastructure.Repository;
+using Hrm.Authentication.Infrastructure.Service;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddDbContext<AuthenticationDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("AuthenticationDb"));
+});
+
+
+//Denpendency Injection
+builder.Services.AddScoped<IUserRepositoryAsync, UserRepositoryAsync>();
+builder.Services.AddScoped<IUserServiceAsync, UserServiceAsync>();
+builder.Services.AddScoped<IUserRoleRepositoryAsync, UserRoleRepositoryAsync>();
+builder.Services.AddScoped<IUserRoleServiceAsync, UserRoleServiceAsync>();
+builder.Services.AddScoped<IRoleRepositoryAsync, RoleRepositoryAsync>();
+builder.Services.AddScoped<IRoleServiceAsync, RoleServiceAsync>();
+
+
 
 var app = builder.Build();
 
@@ -14,28 +36,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+app.UseRouting();
 
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast = Enumerable.Range(1, 5).Select(index =>
-       new WeatherForecast
-       (
-           DateTime.Now.AddDays(index),
-           Random.Shared.Next(-20, 55),
-           summaries[Random.Shared.Next(summaries.Length)]
-       ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
+app.UseCors();
+app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+
 
 app.Run();
 
-internal record WeatherForecast(DateTime Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

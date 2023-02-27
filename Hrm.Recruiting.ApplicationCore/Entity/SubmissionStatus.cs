@@ -8,7 +8,7 @@ namespace Hrm.Recruiting.ApplicationCore.Entity
 {
     public class SubmissionStatus
     {
-        public int LookupCode { get; set; }
+        public int Id { get; set; }
         public string Description { get; set; }
     }
 }

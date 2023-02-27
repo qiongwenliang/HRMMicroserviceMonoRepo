@@ -24,7 +24,7 @@ namespace Hrm.Recruiting.Infrastructure.Service
         {
             SubmissionStatus submissionStatus = new SubmissionStatus()
             {
-                LookupCode = model.LookupCode,
+                Id = model.Id,
                 Description = model.Description
             };
             return submissionStatusRepositoryAsync.InsertAsync(submissionStatus);
@@ -43,7 +43,7 @@ namespace Hrm.Recruiting.Infrastructure.Service
                 return result.ToList().Select(x => new SubmissionStatusResponseModel()
                 {
                     Description = x.Description,
-                    LookupCode = x.LookupCode
+                    Id = x.Id
                 });
             }
             return null;
@@ -56,7 +56,7 @@ namespace Hrm.Recruiting.Infrastructure.Service
             {
                 return new SubmissionStatusResponseModel()
                 {
-                    LookupCode = result.LookupCode,
+                    Id = result.Id,
                     Description = result.Description
                 };
             }
@@ -67,7 +67,7 @@ namespace Hrm.Recruiting.Infrastructure.Service
         {
             SubmissionStatus submissionStatus = new SubmissionStatus()
             {
-                LookupCode = model.LookupCode,
+                Id = model.Id,
                 Description = model.Description
             };
             return submissionStatusRepositoryAsync.UpdateAsync(submissionStatus);

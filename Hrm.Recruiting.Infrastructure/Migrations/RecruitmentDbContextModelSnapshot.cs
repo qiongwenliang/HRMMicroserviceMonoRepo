@@ -140,6 +140,63 @@ namespace Hrm.Recruiting.Infrastructure.Migrations
                     b.ToTable("JobRequirement");
                 });
 
+            modelBuilder.Entity("Hrm.Recruiting.ApplicationCore.Entity.Submission", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CandidateId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("ConfirmedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("JobRequirementId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("RejectedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("SubmissionStatusCode")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SubmissionStatusId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("SubmittedOn")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CandidateId");
+
+                    b.HasIndex("JobRequirementId");
+
+                    b.HasIndex("SubmissionStatusId");
+
+                    b.ToTable("Submission");
+                });
+
+            modelBuilder.Entity("Hrm.Recruiting.ApplicationCore.Entity.SubmissionStatus", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("SubmissionStatus");
+                });
+
             modelBuilder.Entity("Hrm.Recruiting.ApplicationCore.Entity.JobRequirement", b =>
                 {
                     b.HasOne("Hrm.Recruiting.ApplicationCore.Entity.JobCategory", "JobCategory")
@@ -149,6 +206,33 @@ namespace Hrm.Recruiting.Infrastructure.Migrations
                         .IsRequired();
 
                     b.Navigation("JobCategory");
+                });
+
+            modelBuilder.Entity("Hrm.Recruiting.ApplicationCore.Entity.Submission", b =>
+                {
+                    b.HasOne("Hrm.Recruiting.ApplicationCore.Entity.Candidate", "Candidate")
+                        .WithMany()
+                        .HasForeignKey("CandidateId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Hrm.Recruiting.ApplicationCore.Entity.JobRequirement", "JobRequirement")
+                        .WithMany()
+                        .HasForeignKey("JobRequirementId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Hrm.Recruiting.ApplicationCore.Entity.SubmissionStatus", "SubmissionStatus")
+                        .WithMany()
+                        .HasForeignKey("SubmissionStatusId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Candidate");
+
+                    b.Navigation("JobRequirement");
+
+                    b.Navigation("SubmissionStatus");
                 });
 #pragma warning restore 612, 618
         }

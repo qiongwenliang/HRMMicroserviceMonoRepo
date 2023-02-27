@@ -1,3 +1,10 @@
+using Hrm.Interview.ApplicationCore.Contract.Repository;
+using Hrm.Interview.ApplicationCore.Contract.Service;
+using Hrm.Interview.Infrastructure.Data;
+using Hrm.Interview.Infrastructure.Repository;
+using Hrm.Interview.Infrastructure.Service;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +13,25 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddDbContext<InterviewDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("InterviewDb"));
+});
+
+
+//Dependency Injection
+builder.Services.AddScoped<IInterviewsRepositoryAsync, InterviewsRepositoryAsync>();
+builder.Services.AddScoped<IInterviewsServiceAsync, InterviewsServiceAsync>();
+builder.Services.AddScoped<IInterviewerRepositoryAsync, InterviewerRepositoryAsync>();  
+builder.Services.AddScoped<IInterviewerServiceAsync, InterviewerServiceAsync>();
+builder.Services.AddScoped<IInterviewFeedbackServiceAsync, InterviewFeedbackServiceAsync>();
+builder.Services.AddScoped<IInterviewFeedbackRepositoryAsync, InterviewFeedbackRepositoryAsync>();
+builder.Services.AddScoped<IInterviewTypeServiceAsync, InterviewTypeServiceAsync>();
+builder.Services.AddScoped<IInterviewTypeRepositoryAsync, InterviewTypeRepositoryAsync>();
+builder.Services.AddScoped<IRecruiterServiceAsync, RecruiterServiceAsync>();
+builder.Services.AddScoped<IRecruiterRepositoryAsync, RecruiterRepositoryAsync>();  
+
+
 
 var app = builder.Build();
 
@@ -15,9 +41,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseRouting();
 
-app.UseAuthorization();
+app.UseCors();
+app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
 
-app.MapControllers();
 
 app.Run();
