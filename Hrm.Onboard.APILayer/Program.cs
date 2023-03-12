@@ -16,6 +16,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<OnboardDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("OnboardDb"));
+    options.UseSqlServer(Environment.GetEnvironmentVariable("OnboardApi"));
 });
 
 

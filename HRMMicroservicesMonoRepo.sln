@@ -7,35 +7,37 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{6EE5051F-4FF
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recruiting", "Recruiting", "{0285994B-8A66-4306-BC1E-4541BD7B294C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hrm.Recruiting.APILayer", "Hrm.Recruiting.APILayer\Hrm.Recruiting.APILayer.csproj", "{17AF22BC-4561-473A-8F5D-036FCBD261BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hrm.Recruiting.APILayer", "Hrm.Recruiting.APILayer\Hrm.Recruiting.APILayer.csproj", "{17AF22BC-4561-473A-8F5D-036FCBD261BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hrm.Recruiting.ApplicationCore", "Hrm.Recruiting.ApplicationCore\Hrm.Recruiting.ApplicationCore.csproj", "{1A398E06-EF9D-4A92-8CE5-F0C56EDC4D76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hrm.Recruiting.ApplicationCore", "Hrm.Recruiting.ApplicationCore\Hrm.Recruiting.ApplicationCore.csproj", "{1A398E06-EF9D-4A92-8CE5-F0C56EDC4D76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hrm.Recruiting.Infrastructure", "Hrm.Recruiting.Infrastructure\Hrm.Recruiting.Infrastructure.csproj", "{049D6903-486D-4168-B641-F70987D64CD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hrm.Recruiting.Infrastructure", "Hrm.Recruiting.Infrastructure\Hrm.Recruiting.Infrastructure.csproj", "{049D6903-486D-4168-B641-F70987D64CD5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interview", "Interview", "{4AF681B7-38C1-415F-8FA2-2C1A81E0C4F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hrm.Interview.APILayer", "Hrm.Interview.APILayer\Hrm.Interview.APILayer.csproj", "{B11E0145-7423-4324-B27F-4FDEA90A5DC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hrm.Interview.APILayer", "Hrm.Interview.APILayer\Hrm.Interview.APILayer.csproj", "{B11E0145-7423-4324-B27F-4FDEA90A5DC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hrm.Interview.ApplicationCore", "Hrm.Interview.ApplicationCore\Hrm.Interview.ApplicationCore.csproj", "{878CE9B5-387A-43FE-89DD-1AE9C214AF67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hrm.Interview.ApplicationCore", "Hrm.Interview.ApplicationCore\Hrm.Interview.ApplicationCore.csproj", "{878CE9B5-387A-43FE-89DD-1AE9C214AF67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hrm.Interview.Infrastructure", "Hrm.Interview.Infrastructure\Hrm.Interview.Infrastructure.csproj", "{D430EF30-7BB7-4152-872A-B22161C099D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hrm.Interview.Infrastructure", "Hrm.Interview.Infrastructure\Hrm.Interview.Infrastructure.csproj", "{D430EF30-7BB7-4152-872A-B22161C099D3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Onboard", "Onboard", "{3FCD32E2-7D25-459E-BA33-67A386C8E1EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hrm.Onboard.APILayer", "Hrm.Onboard.APILayer\Hrm.Onboard.APILayer.csproj", "{5916777D-23B1-4B78-A797-4F35E9BC8BEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hrm.Onboard.APILayer", "Hrm.Onboard.APILayer\Hrm.Onboard.APILayer.csproj", "{5916777D-23B1-4B78-A797-4F35E9BC8BEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hrm.Onboard.ApplicationCore", "Hrm.Onboard.ApplicationCore\Hrm.Onboard.ApplicationCore.csproj", "{4A41457C-7C75-44FD-ABBE-8CC684C66C38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hrm.Onboard.ApplicationCore", "Hrm.Onboard.ApplicationCore\Hrm.Onboard.ApplicationCore.csproj", "{4A41457C-7C75-44FD-ABBE-8CC684C66C38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hrm.Onboard.Infrastructure", "Hrm.Onboard.Infrastructure\Hrm.Onboard.Infrastructure.csproj", "{772C2D2E-2D64-432B-A4E3-9A44A2B40CD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hrm.Onboard.Infrastructure", "Hrm.Onboard.Infrastructure\Hrm.Onboard.Infrastructure.csproj", "{772C2D2E-2D64-432B-A4E3-9A44A2B40CD6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentication", "Authentication", "{6089F51B-FC64-476B-9129-A9FBD4A6A9D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hrm.Authentication.APILayer", "Hrm.Authentication.APILayer\Hrm.Authentication.APILayer.csproj", "{59FD2321-0EB4-4CF1-95CB-6D6AAB170949}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hrm.Authentication.APILayer", "Hrm.Authentication.APILayer\Hrm.Authentication.APILayer.csproj", "{59FD2321-0EB4-4CF1-95CB-6D6AAB170949}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hrm.Authentication.ApplicationCore", "Hrm.Authentication.ApplicationCore\Hrm.Authentication.ApplicationCore.csproj", "{61FB526B-5099-4113-BF17-DA8B27704397}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hrm.Authentication.ApplicationCore", "Hrm.Authentication.ApplicationCore\Hrm.Authentication.ApplicationCore.csproj", "{61FB526B-5099-4113-BF17-DA8B27704397}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hrm.Authentication.Infrastructure", "Hrm.Authentication.Infrastructure\Hrm.Authentication.Infrastructure.csproj", "{C3D96AA7-B2E0-480E-9F6E-520125051929}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hrm.Authentication.Infrastructure", "Hrm.Authentication.Infrastructure\Hrm.Authentication.Infrastructure.csproj", "{C3D96AA7-B2E0-480E-9F6E-520125051929}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{57CDC3CB-9C31-49F7-9895-EBFF3B5F443C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +93,10 @@ Global
 		{C3D96AA7-B2E0-480E-9F6E-520125051929}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3D96AA7-B2E0-480E-9F6E-520125051929}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3D96AA7-B2E0-480E-9F6E-520125051929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57CDC3CB-9C31-49F7-9895-EBFF3B5F443C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57CDC3CB-9C31-49F7-9895-EBFF3B5F443C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57CDC3CB-9C31-49F7-9895-EBFF3B5F443C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57CDC3CB-9C31-49F7-9895-EBFF3B5F443C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

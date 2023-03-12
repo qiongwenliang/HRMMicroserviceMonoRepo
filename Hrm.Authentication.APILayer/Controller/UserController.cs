@@ -1,5 +1,6 @@
 ﻿using Hrm.Authentication.ApplicationCore.Contract.Service;
 using Hrm.Authentication.ApplicationCore.Model.Request;
+using Hrm.Authentication.ApplicationCore.ModelRef;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,10 +11,13 @@ namespace Hrm.Authentication.APILayer.Controller
     public class UserController : ControllerBase
     {
         private readonly IUserServiceAsync userServiceAsync;
+        private readonly IConfiguration config;
+        private readonly HttpClient httpClient = new HttpClient();
 
-        public UserController(IUserServiceAsync _userServiceAsync)
+        public UserController(IUserServiceAsync _userServiceAsync, IConfiguration config)
         {
             userServiceAsync = _userServiceAsync;
+            this.config = config;
         }
 
         [HttpPost]
@@ -26,6 +30,17 @@ namespace Hrm.Authentication.APILayer.Controller
             }
             return BadRequest(model);
         }
+
+
+        [HttpGet("employee")]
+        public async Task<IActionResult> GetEmployee()
+        {
+            httpClient.BaseAddress = new Uri(config.GetSection("OnboardingApiUrl").Value);
+            var result = await httpClient.GetFromJsonAsync<IEnumerable<EmployeeModel>>(httpClient.BaseAddress + "employee");
+            return Ok(result);
+        }
+
+
 
         [HttpGet]
         public async Task<IActionResult> Get()

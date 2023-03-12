@@ -15,6 +15,8 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<RecruitmentDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("RecruitmentDb"));
+    options.UseSqlServer(Environment.GetEnvironmentVariable("RecruitmentApi"));
+
 });
 
 

@@ -3,10 +3,12 @@
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
 EXPOSE 80
-
+ENV OnboardApi="Data Source=192.168.1.193,1433;Initial Catalog=OnboardDb;User ID=sa;Password=Admin@1234;TrustServerCertificate=True"
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["Hrm.Onboard.APILayer/Hrm.Onboard.APILayer.csproj", "Hrm.Onboard.APILayer/"]
+COPY ["Hrm.Onboard.Infrastructure/Hrm.Onboard.Infrastructure.csproj", "Hrm.Onboard.Infrastructure/"]
+COPY ["Hrm.Onboard.ApplicationCore/Hrm.Onboard.ApplicationCore.csproj", "Hrm.Onboard.ApplicationCore/"]
 RUN dotnet restore "Hrm.Onboard.APILayer/Hrm.Onboard.APILayer.csproj"
 COPY . .
 WORKDIR "/src/Hrm.Onboard.APILayer"

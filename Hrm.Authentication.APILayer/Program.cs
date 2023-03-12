@@ -14,6 +14,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<AuthenticationDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("AuthenticationDb"));
+    options.UseSqlServer(Environment.GetEnvironmentVariable("AuthenticationApi"));
 });
 
 

@@ -1,0 +1,17 @@
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Interview.Infrastructure\bin\Release\net6.0\Hrm.Interview.Infrastructure.deps.json
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Interview.Infrastructure\bin\Release\net6.0\Hrm.Interview.Infrastructure.runtimeconfig.json
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Interview.Infrastructure\bin\Release\net6.0\Hrm.Interview.Infrastructure.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Interview.Infrastructure\bin\Release\net6.0\Hrm.Interview.Infrastructure.pdb
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Interview.Infrastructure\bin\Release\net6.0\Hrm.Interview.ApplicationCore.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Interview.Infrastructure\bin\Release\net6.0\Hrm.Interview.ApplicationCore.pdb
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Interview.Infrastructure\obj\Release\net6.0\Hrm.Interview.Infrastructure.csproj.AssemblyReference.cache
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Interview.Infrastructure\obj\Release\net6.0\Hrm.Interview.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Interview.Infrastructure\obj\Release\net6.0\Hrm.Interview.Infrastructure.AssemblyInfoInputs.cache
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Interview.Infrastructure\obj\Release\net6.0\Hrm.Interview.Infrastructure.AssemblyInfo.cs
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Interview.Infrastructure\obj\Release\net6.0\Hrm.Interview.Infrastructure.csproj.CoreCompileInputs.cache
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Interview.Infrastructure\obj\Release\net6.0\Hrm.Interview.Infrastructure.csproj.CopyComplete
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Interview.Infrastructure\obj\Release\net6.0\Hrm.Interview.Infrastructure.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Interview.Infrastructure\obj\Release\net6.0\refint\Hrm.Interview.Infrastructure.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Interview.Infrastructure\obj\Release\net6.0\Hrm.Interview.Infrastructure.pdb
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Interview.Infrastructure\obj\Release\net6.0\Hrm.Interview.Infrastructure.genruntimeconfig.cache
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Interview.Infrastructure\obj\Release\net6.0\ref\Hrm.Interview.Infrastructure.dll

@@ -1,5 +1,6 @@
 ﻿using Hrm.Recruiting.ApplicationCore.Contract.Service;
 using Hrm.Recruiting.ApplicationCore.Model.Request;
+using Hrm.Recruiting.ApplicationCore.ModelRef;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,10 +11,14 @@ namespace Hrm.Recruiting.APILayer.Controller
     public class JobRequirementController : ControllerBase
     {
         private readonly IJobRequirementServiceAsync jobRequirementServiceAsync;
+        private readonly HttpClient httpClient = new HttpClient();
+        private readonly IConfiguration config;
+        
 
-        public JobRequirementController(IJobRequirementServiceAsync _jobRequirementServiceAsync)
+        public JobRequirementController(IJobRequirementServiceAsync _jobRequirementServiceAsync, IConfiguration config)
         {
             jobRequirementServiceAsync = _jobRequirementServiceAsync;
+            this.config = config;
         }
 
         [HttpPost]
@@ -26,6 +31,24 @@ namespace Hrm.Recruiting.APILayer.Controller
             }
             return BadRequest(model);
         }
+
+        [HttpGet("employee")]
+        public async Task<IActionResult> GetEmployee()
+        {
+            httpClient.BaseAddress = new Uri(config.GetSection("OnboardingApiUrl").Value);
+            var result = await httpClient.GetFromJsonAsync<IEnumerable<EmployeeModel>>(httpClient.BaseAddress + "employee");
+            return Ok(result);
+        }
+
+        [HttpGet("employeecategory")]
+        public async Task<IActionResult> GetEmployeeCategory()
+        {
+            httpClient.BaseAddress = new Uri(config.GetSection("OnboardingApiUrl").Value);
+            var result = await httpClient.GetFromJsonAsync<IEnumerable<EmployeeCategoryModel>>(httpClient.BaseAddress + "employeecategory");
+            return Ok(result);
+        }
+
+
 
         [HttpGet]
         public async Task<IActionResult> Get()

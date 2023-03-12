@@ -13,9 +13,11 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 builder.Services.AddDbContext<InterviewDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("InterviewDb"));
+    options.UseSqlServer(Environment.GetEnvironmentVariable("InterviewApi"));
 });
 
 
@@ -29,9 +31,17 @@ builder.Services.AddScoped<IInterviewFeedbackRepositoryAsync, InterviewFeedbackR
 builder.Services.AddScoped<IInterviewTypeServiceAsync, InterviewTypeServiceAsync>();
 builder.Services.AddScoped<IInterviewTypeRepositoryAsync, InterviewTypeRepositoryAsync>();
 builder.Services.AddScoped<IRecruiterServiceAsync, RecruiterServiceAsync>();
-builder.Services.AddScoped<IRecruiterRepositoryAsync, RecruiterRepositoryAsync>();  
+builder.Services.AddScoped<IRecruiterRepositoryAsync, RecruiterRepositoryAsync>();
 
-
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.AllowAnyOrigin();
+        policy.AllowAnyMethod();
+        policy.AllowAnyHeader();
+    });
+});
 
 var app = builder.Build();
 

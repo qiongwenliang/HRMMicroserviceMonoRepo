@@ -24,7 +24,7 @@ namespace Hrm.Recruiting.APILayer.Controller
                 await candidateServiceAsync.AddCandidateAsync(model);
                 return Ok(model);
             }
-            return BadRequest(model);
+            return BadRequest();
         }
         [HttpGet]
         public async Task<IActionResult> Get()

@@ -1,5 +1,7 @@
 ﻿using Hrm.Interview.ApplicationCore.Contract.Service;
+
 using Hrm.Interview.ApplicationCore.Model.Request;
+using Hrm.Interview.ApplicationCore.ModelRef;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,11 +11,16 @@ namespace Hrm.Interview.APILayer.Controllers
     [ApiController]
     public class InterviewsController : ControllerBase
     {
-        private readonly IInterviewsServiceAsync interviewsServiceAsync;
 
-        public InterviewsController(IInterviewsServiceAsync _interviewsServiceAsync)
+
+        private readonly IInterviewsServiceAsync interviewsServiceAsync;
+        private readonly HttpClient httpClient = new HttpClient();
+        private readonly IConfiguration config;
+
+        public InterviewsController(IInterviewsServiceAsync _interviewsServiceAsync, IConfiguration config)
         {
             interviewsServiceAsync = _interviewsServiceAsync;
+            this.config = config;
         }
 
         [HttpPost]
@@ -26,6 +33,28 @@ namespace Hrm.Interview.APILayer.Controllers
             }
             return BadRequest(model);
         }
+
+
+        [HttpGet("candidate")]
+        public async Task<IActionResult> GetCandidate()
+        {
+            httpClient.BaseAddress = new Uri(config.GetSection("RecruitingApiUrl").Value);
+            //this RecruitingApiUrl is configured in appsetting.json
+            var result = await httpClient.GetFromJsonAsync<IEnumerable<CandidateModel>>(httpClient.BaseAddress + "candidate");
+            return Ok(result);
+        }
+
+
+        [HttpGet("submission")]
+        public async Task<IActionResult> GetSubmission()
+        {
+            httpClient.BaseAddress = new Uri(config.GetSection("RecruitingApiUrl").Value);
+            //this RecruitingApiUrl is configured in appsetting.json
+            var result = await httpClient.GetFromJsonAsync<IEnumerable<SubmissionModel>>(httpClient.BaseAddress + "submission");
+            return Ok(result);
+        }
+
+
 
         [HttpGet]
         public async Task<IActionResult> Get()
