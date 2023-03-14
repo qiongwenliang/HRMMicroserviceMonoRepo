@@ -41,6 +41,7 @@ app.UseRouting();
 
 app.UseCors();
 app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+//map to a particular controller
 
 
 app.Run();

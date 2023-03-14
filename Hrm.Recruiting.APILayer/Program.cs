@@ -1,3 +1,4 @@
+using Azure.Storage.Blobs;
 using Hrm.Recruiting.ApplicationCore.Contract.Repository;
 using Hrm.Recruiting.ApplicationCore.Contract.Service;
 using Hrm.Recruiting.Infrastructure.Data;
@@ -12,6 +13,15 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
+
+
+
+//builder.Services.AddSingleton(x => new BlobServiceClient(builder.Configuration.GetValue<string>("ResumeContainer")));
+//builder.Services.AddScoped<IBlobServiceAsync, BlobServiceAsync>();
+
+
+
+
 builder.Services.AddDbContext<RecruitmentDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("RecruitmentDb"));

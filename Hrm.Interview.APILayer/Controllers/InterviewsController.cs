@@ -35,27 +35,6 @@ namespace Hrm.Interview.APILayer.Controllers
         }
 
 
-        [HttpGet("candidate")]
-        public async Task<IActionResult> GetCandidate()
-        {
-            httpClient.BaseAddress = new Uri(config.GetSection("RecruitingApiUrl").Value);
-            //this RecruitingApiUrl is configured in appsetting.json
-            var result = await httpClient.GetFromJsonAsync<IEnumerable<CandidateModel>>(httpClient.BaseAddress + "candidate");
-            return Ok(result);
-        }
-
-
-        [HttpGet("submission")]
-        public async Task<IActionResult> GetSubmission()
-        {
-            httpClient.BaseAddress = new Uri(config.GetSection("RecruitingApiUrl").Value);
-            //this RecruitingApiUrl is configured in appsetting.json
-            var result = await httpClient.GetFromJsonAsync<IEnumerable<SubmissionModel>>(httpClient.BaseAddress + "submission");
-            return Ok(result);
-        }
-
-
-
         [HttpGet]
         public async Task<IActionResult> Get()
         {
@@ -99,6 +78,36 @@ namespace Hrm.Interview.APILayer.Controllers
 
             await interviewsServiceAsync.DeleteInterviewsAsync(id);
             return Ok("Deleted");
+        }
+
+
+
+        //microservice api connection
+        [HttpGet("candidate")]
+        public async Task<IActionResult> GetCandidate()
+        {
+            httpClient.BaseAddress = new Uri(config.GetSection("RecruitingApiUrl").Value);
+            //this RecruitingApiUrl is configured in appsetting.json
+            var result = await httpClient.GetFromJsonAsync<IEnumerable<CandidateModel>>(httpClient.BaseAddress + "candidate");
+            return Ok(result);
+        }
+
+
+        [HttpGet("submission")]
+        public async Task<IActionResult> GetSubmission()
+        {
+            httpClient.BaseAddress = new Uri(config.GetSection("RecruitingApiUrl").Value);
+            //this RecruitingApiUrl is configured in appsetting.json
+            var result = await httpClient.GetFromJsonAsync<IEnumerable<SubmissionModel>>(httpClient.BaseAddress + "submission");
+            return Ok(result);
+        }
+
+        [HttpGet("employee")]
+        public async Task<IActionResult> GetEmployee()
+        {
+            httpClient.BaseAddress = new Uri(config.GetSection("OnboardingApiUrl").Value);
+            var result = await httpClient.GetFromJsonAsync<IEnumerable<EmployeeModel>>(httpClient.BaseAddress + "employee");
+            return Ok(result);
         }
     }
 }

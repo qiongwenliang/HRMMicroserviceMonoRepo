@@ -1,4 +1,5 @@
 ﻿using Hrm.Recruiting.ApplicationCore.Contract.Service;
+using Hrm.Recruiting.ApplicationCore.Model;
 using Hrm.Recruiting.ApplicationCore.Model.Request;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -10,9 +11,13 @@ namespace Hrm.Recruiting.APILayer.Controller
     public class CandidateController : ControllerBase
     {
         private readonly ICandidateServiceAsync candidateServiceAsync;
-        public CandidateController(ICandidateServiceAsync _candidateServiceAsync)
+
+        private readonly IBlobServiceAsync blobServiceAsync;
+
+        public CandidateController(ICandidateServiceAsync _candidateServiceAsync, IBlobServiceAsync _blobServiceAsync)
         {
             candidateServiceAsync = _candidateServiceAsync;
+            blobServiceAsync = _blobServiceAsync;
         }
 
 
@@ -26,6 +31,8 @@ namespace Hrm.Recruiting.APILayer.Controller
             }
             return BadRequest();
         }
+
+
         [HttpGet]
         public async Task<IActionResult> Get()
         {
@@ -67,6 +74,31 @@ namespace Hrm.Recruiting.APILayer.Controller
 
             await candidateServiceAsync.DeleteCandidateAsync(id);
             return Ok("Deleted");
+        }
+
+
+
+        //Azure Blob Storage settings
+        [HttpPost("resume")]
+        public async Task<IActionResult> UploadResume(BlobModel model)
+        {
+            await blobServiceAsync.UploadFileAsync(model.filePath, model.fileName);
+            return Ok();
+        }
+
+
+        [HttpDelete("deleteResume")]
+        public async Task<IActionResult> DeleteResume(string fileName)
+        {
+            try
+            {
+                await blobServiceAsync.DeleteFileAsync(fileName);
+                return Ok();
+            }
+            catch(Exception ex)
+            {
+                return BadRequest();
+            }
         }
     }
 }

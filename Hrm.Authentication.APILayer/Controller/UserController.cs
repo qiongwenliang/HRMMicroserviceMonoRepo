@@ -32,16 +32,6 @@ namespace Hrm.Authentication.APILayer.Controller
         }
 
 
-        [HttpGet("employee")]
-        public async Task<IActionResult> GetEmployee()
-        {
-            httpClient.BaseAddress = new Uri(config.GetSection("OnboardingApiUrl").Value);
-            var result = await httpClient.GetFromJsonAsync<IEnumerable<EmployeeModel>>(httpClient.BaseAddress + "employee");
-            return Ok(result);
-        }
-
-
-
         [HttpGet]
         public async Task<IActionResult> Get()
         {
@@ -73,6 +63,16 @@ namespace Hrm.Authentication.APILayer.Controller
 
             await userServiceAsync.DeleteUserAsync(id);
             return Ok("Deleted");
+        }
+
+
+        //microservice api connection
+        [HttpGet("employee")]
+        public async Task<IActionResult> GetEmployee()
+        {
+            httpClient.BaseAddress = new Uri(config.GetSection("OnboardingApiUrl").Value);
+            var result = await httpClient.GetFromJsonAsync<IEnumerable<EmployeeModel>>(httpClient.BaseAddress + "employee");
+            return Ok(result);
         }
     }
 }

@@ -10,10 +10,13 @@ namespace Hrm.Onboard.APILayer.Controllers
     public class EmployeeController : ControllerBase
     {
         private readonly IEmployeeServiceAsync employeeServiceAsync;
+        private readonly HttpClient httpClient = new HttpClient();
+        private readonly IConfiguration config;
 
-        public EmployeeController(IEmployeeServiceAsync _employeeServiceAsync)
+        public EmployeeController(IEmployeeServiceAsync _employeeServiceAsync, IConfiguration _config)
         {
             employeeServiceAsync = _employeeServiceAsync;
+            config = _config;
         }
 
         [HttpPost]
@@ -26,6 +29,7 @@ namespace Hrm.Onboard.APILayer.Controllers
             }
             return BadRequest(model);
         }
+
 
         [HttpGet]
         public async Task<IActionResult> Get()
