@@ -24,7 +24,7 @@ namespace Hrm.Onboard.APILayer.Controllers
                 await employeeServiceAsync.AddEmployeeAsync(model);
                 return Ok(model);
             }
-            return BadRequest(model);
+            return BadRequest("This employee is not inserted");
         }
 
         [HttpGet]
