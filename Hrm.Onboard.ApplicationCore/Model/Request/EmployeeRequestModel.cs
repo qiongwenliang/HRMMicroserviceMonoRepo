@@ -14,9 +14,7 @@ namespace Hrm.Onboard.ApplicationCore.Model.Request
         public string FirstName { get; set; }
         [Required]
         public string LastName { get; set; }
-        [Required]
         public string MiddleName { get; set; }
-        [Required]
         public int SSN { get; set; }
         public DateTime HireDate { get; set; }
         public DateTime EndDate { get; set; }

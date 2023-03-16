@@ -15,9 +15,7 @@ namespace Hrm.Onboard.ApplicationCore.Entity
         public string FirstName { get; set; }
         [Required, Column(TypeName = "nvarchar(128)")]
         public string LastName { get; set; }
-        [Required, Column(TypeName = "nvarchar(128)")]
         public string MiddleName { get; set; }
-        [Required, Column(TypeName = "nvarchar(9)")]
         public int SSN { get; set; }
         public DateTime HireDate { get; set; }
         public DateTime EndDate { get; set; }

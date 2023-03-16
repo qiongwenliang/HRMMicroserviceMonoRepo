@@ -8,9 +8,10 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 
-builder.Services.AddControllers();
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddControllers();
 builder.Services.AddDbContext<AuthenticationDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("AuthenticationDb"));
@@ -25,6 +26,18 @@ builder.Services.AddScoped<IUserRoleRepositoryAsync, UserRoleRepositoryAsync>();
 builder.Services.AddScoped<IUserRoleServiceAsync, UserRoleServiceAsync>();
 builder.Services.AddScoped<IRoleRepositoryAsync, RoleRepositoryAsync>();
 builder.Services.AddScoped<IRoleServiceAsync, RoleServiceAsync>();
+
+
+
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.AllowAnyOrigin();
+        policy.AllowAnyMethod();
+        policy.AllowAnyHeader();
+    });
+});
 
 
 
