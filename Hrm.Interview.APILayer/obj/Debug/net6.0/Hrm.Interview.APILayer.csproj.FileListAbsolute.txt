@@ -170,3 +170,6 @@ F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Interview.APILayer\obj\Debug\net6
 F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Interview.APILayer\obj\Debug\net6.0\Hrm.Interview.APILayer.pdb
 F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Interview.APILayer\obj\Debug\net6.0\Hrm.Interview.APILayer.genruntimeconfig.cache
 F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Interview.APILayer\obj\Debug\net6.0\ref\Hrm.Interview.APILayer.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Interview.APILayer\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Interview.APILayer\bin\Debug\net6.0\Azure.Storage.Common.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Interview.APILayer\bin\Debug\net6.0\System.IO.Hashing.dll

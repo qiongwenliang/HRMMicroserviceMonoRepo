@@ -170,3 +170,6 @@ F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Recruiting.APILayer\obj\Debug\net
 F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Recruiting.APILayer\obj\Debug\net6.0\Hrm.Recruiting.APILayer.csproj.CopyComplete
 F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Recruiting.APILayer\obj\Debug\net6.0\Hrm.Recruiting.APILayer.genruntimeconfig.cache
 F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Recruiting.APILayer\obj\Debug\net6.0\ref\Hrm.Recruiting.APILayer.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Recruiting.APILayer\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Recruiting.APILayer\bin\Debug\net6.0\Azure.Storage.Common.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\Hrm.Recruiting.APILayer\bin\Debug\net6.0\System.IO.Hashing.dll

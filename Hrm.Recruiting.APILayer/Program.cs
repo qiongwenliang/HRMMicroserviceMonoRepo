@@ -1,3 +1,4 @@
+using Azure.Storage.Blobs;
 using Hrm.Recruiting.ApplicationCore.Contract.Repository;
 using Hrm.Recruiting.ApplicationCore.Contract.Service;
 using Hrm.Recruiting.Infrastructure.Data;
@@ -7,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -14,9 +16,18 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
 
+//blob storage dependency injection
+builder.Services.AddSingleton(x => new BlobServiceClient(builder.Configuration.GetValue<string>("recruitingcandidateresumecontainer")));
+builder.Services.AddScoped<IBlobServiceAsync, BlobServiceAsync>();
+
+
+
+var result = builder.Configuration.GetConnectionString("RecruitmentDb");
 builder.Services.AddDbContext<RecruitmentDbContext>(options =>
 {
+    if (result != null)
     options.UseSqlServer(builder.Configuration.GetConnectionString("RecruitmentDb"));
+    else
     options.UseSqlServer(Environment.GetEnvironmentVariable("RecruitmentApi"));
 
 });

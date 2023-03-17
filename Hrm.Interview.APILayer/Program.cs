@@ -15,9 +15,13 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
+
+var result = builder.Configuration.GetConnectionString("InterviewDb");
 builder.Services.AddDbContext<InterviewDbContext>(options =>
 {
+    if (result != null)
     options.UseSqlServer(builder.Configuration.GetConnectionString("InterviewDb"));
+    else
     options.UseSqlServer(Environment.GetEnvironmentVariable("InterviewApi"));
 });
 

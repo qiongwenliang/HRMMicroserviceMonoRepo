@@ -18,5 +18,6 @@ namespace Hrm.Recruiting.ApplicationCore.Model.Request
         public string Mobile { get; set; }
         public string EmailId { get; set; }
         public string? ResumeUrl { get; set; }
+        public string FileName { get; set; }
     }
 }

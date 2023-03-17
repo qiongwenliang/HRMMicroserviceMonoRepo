@@ -14,11 +14,14 @@ namespace Hrm.Recruiting.Infrastructure.Service
     public class CandidateServiceAsync : ICandidateServiceAsync
     {
         private readonly ICandidateRepositoryAsync candidateRepositoryAsync;
+        private readonly IBlobServiceAsync blobServiceAsync;
 
-        public CandidateServiceAsync(ICandidateRepositoryAsync _candidateRepositoryAsync)
+        public CandidateServiceAsync(ICandidateRepositoryAsync _candidateRepositoryAsync, IBlobServiceAsync _blobServiceAsync)
         {
             candidateRepositoryAsync = _candidateRepositoryAsync;
+            blobServiceAsync = _blobServiceAsync;
         }
+
 
         public Task<int> AddCandidateAsync(CandidateRequestModel model)
         {
@@ -71,17 +74,20 @@ namespace Hrm.Recruiting.Infrastructure.Service
             return null;
         }
 
-        public Task<int> UpdateCandidateAsync(CandidateRequestModel model)
+        public async Task<int> UpdateCandidateAsync(CandidateRequestModel model)
         {
+            var result = await blobServiceAsync.UploadFileAsync(model.ResumeUrl, model.FileName);
+
             Candidate candidate = new Candidate()
             {
                 Id = model.Id,
                 FirstName = model.FirstName,
                 LastName=model.LastName,
                 Mobile = model.Mobile,
-                EmailId=model.EmailId
+                EmailId=model.EmailId,
+                ResumeUrl = model.ResumeUrl
             };
-            return candidateRepositoryAsync.UpdateAsync(candidate);
+            return await candidateRepositoryAsync.UpdateAsync(candidate);
         }
     }
 }
