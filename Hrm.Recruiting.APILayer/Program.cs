@@ -22,12 +22,12 @@ builder.Services.AddScoped<IBlobServiceAsync, BlobServiceAsync>();
 
 
 
-var result = builder.Configuration.GetConnectionString("RecruitmentDb");
+//var result = builder.Configuration.GetConnectionString("RecruitmentDb");
 builder.Services.AddDbContext<RecruitmentDbContext>(options =>
 {
-    if (result != null)
-    options.UseSqlServer(builder.Configuration.GetConnectionString("RecruitmentDb"));
-    else
+    //if (result != null)
+    //options.UseSqlServer(builder.Configuration.GetConnectionString("RecruitmentDb"));
+    //else
     options.UseSqlServer(Environment.GetEnvironmentVariable("RecruitmentApi"));
 
 });

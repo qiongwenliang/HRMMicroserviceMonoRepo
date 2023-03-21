@@ -12,6 +12,6 @@ namespace Hrm.Recruiting.ApplicationCore.Contract.Service
     {
         Task<string> UploadFileAsync(string filePath, string fileName);
         Task DeleteFileAsync(string fileName);
-        Task<BlobContent> GetFile(string file);
+        Task<BlobContent> GetFile(string filePath);
     }
 }

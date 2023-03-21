@@ -3,7 +3,7 @@
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
 EXPOSE 80
-ENV InterviewApi="Data Source=192.168.1.193,1433;Initial Catalog=InterviewDb;User ID=sa;Password=Admin@1234;TrustServerCertificate=True"
+ENV InterviewApi="Data Source=192.168.1.200,1433;Initial Catalog=InterviewDb;User ID=sa;Password=Admin@1234;TrustServerCertificate=True"
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["Hrm.Interview.APILayer/Hrm.Interview.APILayer.csproj", "Hrm.Interview.APILayer/"]

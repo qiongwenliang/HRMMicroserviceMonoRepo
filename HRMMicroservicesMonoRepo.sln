@@ -39,6 +39,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hrm.Authentication.Infrastr
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{57CDC3CB-9C31-49F7-9895-EBFF3B5F443C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIGateway", "APIGateway", "{56026366-476B-4E49-9A80-75E9BF887FD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIGatewayLayer", "APIGatewayLayer\APIGatewayLayer.csproj", "{67E42E4B-A066-4B94-815F-0381A50B83A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +101,10 @@ Global
 		{57CDC3CB-9C31-49F7-9895-EBFF3B5F443C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57CDC3CB-9C31-49F7-9895-EBFF3B5F443C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57CDC3CB-9C31-49F7-9895-EBFF3B5F443C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67E42E4B-A066-4B94-815F-0381A50B83A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67E42E4B-A066-4B94-815F-0381A50B83A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67E42E4B-A066-4B94-815F-0381A50B83A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67E42E4B-A066-4B94-815F-0381A50B83A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -118,6 +126,7 @@ Global
 		{59FD2321-0EB4-4CF1-95CB-6D6AAB170949} = {6089F51B-FC64-476B-9129-A9FBD4A6A9D1}
 		{61FB526B-5099-4113-BF17-DA8B27704397} = {6089F51B-FC64-476B-9129-A9FBD4A6A9D1}
 		{C3D96AA7-B2E0-480E-9F6E-520125051929} = {6089F51B-FC64-476B-9129-A9FBD4A6A9D1}
+		{67E42E4B-A066-4B94-815F-0381A50B83A1} = {56026366-476B-4E49-9A80-75E9BF887FD3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ED1883A2-9801-48FB-9142-9DE26A049F9B}

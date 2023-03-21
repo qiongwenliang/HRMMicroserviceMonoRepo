@@ -16,6 +16,7 @@ namespace Hrm.Authentication.Infrastructure.Repository
         {
             db = _context;
         }
+
         public async Task<int> DeleteAsync(int id)
         {
             var entity = await db.Set<T>().FindAsync(id);

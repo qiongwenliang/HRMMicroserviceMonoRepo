@@ -3,7 +3,7 @@
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
 EXPOSE 80
-ENV AuthenticationApi="Data Source=192.168.1.193,1433;Initial Catalog=AuthenticationDb;User ID=sa;Password=Admin@1234;TrustServerCertificate=True"
+ENV AuthenticationApi="Data Source=192.168.1.200,1433;Initial Catalog=AuthenticationDb;User ID=sa;Password=Admin@1234;TrustServerCertificate=True"
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["Hrm.Authentication.APILayer/Hrm.Authentication.APILayer.csproj", "Hrm.Authentication.APILayer/"]

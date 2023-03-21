@@ -3,16 +3,14 @@ version: '3.4'
 services:
   hrm.interview.apilayer:
     image: ${DOCKER_REGISTRY-}hrminterviewapilayer
-    ports:
-       - "7291:80"
+    hostname: "interviewApiGateway"
     build:
       context: .
       dockerfile: Hrm.Interview.APILayer/Dockerfile
 
   hrm.recruiting.apilayer:
     image: ${DOCKER_REGISTRY-}hrmrecruitingapilayer
-    ports:
-       - "7292:80"
+    hostname: "recruitingApiGateway"
     build:
       context: .
       dockerfile: Hrm.Recruiting.APILayer/Dockerfile
@@ -20,8 +18,7 @@ services:
 
   hrm.onboard.apilayer:
     image: ${DOCKER_REGISTRY-}hrmonboardapilayer
-    ports:
-       - "7293:80"
+    hostname: "onboardApiGateway"
     build:
       context: .
       dockerfile: Hrm.Onboard.APILayer/Dockerfile
@@ -29,9 +26,16 @@ services:
 
   hrm.authentication.apilayer:
     image: ${DOCKER_REGISTRY-}hrmauthenticationapilayer
-    ports:
-       - "7294:80"
+    hostname: "authenticationApiGateway"
     build:
       context: .
       dockerfile: Hrm.Authentication.APILayer/Dockerfile
 
+
+  apigatewaylayer:
+    image: ${DOCKER_REGISTRY-}apigatewaylayer
+    build:
+      context: .
+      dockerfile: APIGatewayLayer/Dockerfile
+    ports:
+        - "7292:80"

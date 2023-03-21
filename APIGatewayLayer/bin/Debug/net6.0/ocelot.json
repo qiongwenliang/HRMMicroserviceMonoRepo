@@ -1,0 +1,154 @@
+{
+  "Routes": [
+    //recruitingapigateway - candidate
+    {
+      "UpstreamPathTemplate": "/api/candidate",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "recruitingApiGateway",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/candidate"
+    },
+
+    {
+      "UpstreamPathTemplate": "/api/candidate/{id}",
+      "UpstreamHttpMethod": [ "Get", "Delete" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "recruitingApiGateway",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/candidate/{id}"
+    },
+
+    //recruitingApiGateway - jobRequirement
+    {
+      "UpstreamPathTemplate": "/api/jobrequirement",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "recruitingApiGateway",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/jobrequirement"
+    },
+
+    {
+      "UpstreamPathTemplate": "/api/jobrequirement/{id}",
+      "UpstreamHttpMethod": [ "Get", "Delete" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "recruitingApiGateway",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/jobrequirement/{id}"
+    },
+
+    //recruitingApiGateway - jobCategory
+    {
+      "UpstreamPathTemplate": "/api/jobcategory",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "recruitingApiGateway",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/jobcategory"
+    },
+    {
+      "UpstreamPathTemplate": "/api/jobcategory/{id}",
+      "UpstreamHttpMethod": [ "Get", "Delete" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "recruitingApiGateway",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/jobcategory/{id}"
+    },
+
+    //recruitingApiGateway - submission
+    {
+      "UpstreamPathTemplate": "/api/submission",
+      "UpstreamHttpMethod": [ "Get", "Post", "Delete" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "recruitingApiGateway",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/submission"
+    },
+    {
+      "UpstreamPathTemplate": "/api/submission/{id}",
+      "UpstreamHttpMethod": [ "Get", "Delete" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "recruitingApiGateway",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/submission/{id}"
+    },
+
+    //recruitingApiGateway - submissionStatus
+    {
+      "UpstreamPathTemplate": "/api/submissionstatus",
+      "UpstreamHttpMethod": [ "Get", "Post", "Delete" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "recruitingApiGateway",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/submissionstatus"
+    },
+    {
+      "UpstreamPathTemplate": "/api/submissionstatus/{id}",
+      "UpstreamHttpMethod": [ "Get", "Delete" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "recruitingApiGateway",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/submissionstatus/{id}"
+    },
+
+    {
+      "UpstreamPathTemplate": "/api/interviews",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "interviewApiGateway",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/interviews"
+    }
+
+
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:7292"
+  }
+
+}

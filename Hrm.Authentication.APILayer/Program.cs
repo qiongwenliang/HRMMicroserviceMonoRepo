@@ -14,12 +14,12 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
 
-var result = builder.Configuration.GetConnectionString("AuthenticationDb");
+//var result = builder.Configuration.GetConnectionString("AuthenticationDb");
 builder.Services.AddDbContext<AuthenticationDbContext>(options =>
 {
-    if (result!=null)
+    //if (result!=null)
     options.UseSqlServer(builder.Configuration.GetConnectionString("AuthenticationDb"));
-    else
+    //else
     options.UseSqlServer(Environment.GetEnvironmentVariable("AuthenticationApi"));
 });
 
