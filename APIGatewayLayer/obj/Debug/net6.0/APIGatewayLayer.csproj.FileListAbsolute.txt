@@ -30,3 +30,13 @@ F:\ASP.NetProjects\HRMMicroserviceMonoRepo\APIGatewayLayer\obj\Debug\net6.0\refi
 F:\ASP.NetProjects\HRMMicroserviceMonoRepo\APIGatewayLayer\obj\Debug\net6.0\APIGatewayLayer.pdb
 F:\ASP.NetProjects\HRMMicroserviceMonoRepo\APIGatewayLayer\obj\Debug\net6.0\APIGatewayLayer.genruntimeconfig.cache
 F:\ASP.NetProjects\HRMMicroserviceMonoRepo\APIGatewayLayer\obj\Debug\net6.0\ref\APIGatewayLayer.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\APIGatewayLayer\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\APIGatewayLayer\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\APIGatewayLayer\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\APIGatewayLayer\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\APIGatewayLayer\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\APIGatewayLayer\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\APIGatewayLayer\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\APIGatewayLayer\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\APIGatewayLayer\bin\Debug\net6.0\JWTAuthenticationManager.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\APIGatewayLayer\bin\Debug\net6.0\JWTAuthenticationManager.pdb

@@ -19,9 +19,9 @@ builder.Services.AddControllers();
 var result = builder.Configuration.GetConnectionString("OnboardDb");
 builder.Services.AddDbContext<OnboardDbContext>(options =>
 {
-    if (result!=null)
-    options.UseSqlServer(builder.Configuration.GetConnectionString("OnboardDb"));
-    else
+    //if (result!=null)
+    //options.UseSqlServer(builder.Configuration.GetConnectionString("OnboardDb"));
+    //else
     options.UseSqlServer(Environment.GetEnvironmentVariable("OnboardApi"));
 });
 

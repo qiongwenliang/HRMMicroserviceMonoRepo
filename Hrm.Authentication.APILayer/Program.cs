@@ -3,6 +3,7 @@ using Hrm.Authentication.ApplicationCore.Contract.Service;
 using Hrm.Authentication.Infrastructure.Data;
 using Hrm.Authentication.Infrastructure.Repository;
 using Hrm.Authentication.Infrastructure.Service;
+using JWTAuthenticationManager;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,7 +12,15 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
 builder.Services.AddControllers();
+
+
+//add jwt service dependency
+builder.Services.AddSingleton<JwtTokenHandler>();
+
+
 
 
 //var result = builder.Configuration.GetConnectionString("AuthenticationDb");

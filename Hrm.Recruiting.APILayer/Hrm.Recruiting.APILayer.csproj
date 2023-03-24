@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Hrm.Recruiting.Infrastructure\Hrm.Recruiting.Infrastructure.csproj" />
+    <ProjectReference Include="..\JWTAuthenticationManager\JWTAuthenticationManager.csproj" />
   </ItemGroup>
 
 </Project>

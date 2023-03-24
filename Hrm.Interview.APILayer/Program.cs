@@ -16,6 +16,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
 
+
 //var result = builder.Configuration.GetConnectionString("InterviewDb");
 builder.Services.AddDbContext<InterviewDbContext>(options =>
 {
@@ -56,7 +57,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+//app.UseAuthentication(); don't need this because we used it in ocelot
 app.UseRouting();
+//app.UseAuthorization();
 
 app.UseCors();
 

@@ -1,10 +1,12 @@
 ﻿using Hrm.Onboard.ApplicationCore.Contract.Service;
 using Hrm.Onboard.ApplicationCore.Model.Request;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Hrm.Onboard.APILayer.Controllers
 {
+    [Authorize(Roles = "Admin")]
     [Route("api/[controller]")]
     [ApiController]
     public class EmployeeController : ControllerBase

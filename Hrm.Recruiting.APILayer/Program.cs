@@ -5,6 +5,7 @@ using Hrm.Recruiting.Infrastructure.Data;
 using Hrm.Recruiting.Infrastructure.Repository;
 using Hrm.Recruiting.Infrastructure.Service;
 using Microsoft.EntityFrameworkCore;
+using JWTAuthenticationManager;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +15,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
+builder.Services.AddCustomJWTAuthentication();
+
 
 
 //blob storage dependency injection
@@ -68,7 +71,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+//authentication must be put before authorization, and between should put userouting
+app.UseAuthentication();
 app.UseRouting(); 
+app.UseAuthorization();
 
 app.UseCors();
 

@@ -1,0 +1,12 @@
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\JWTAuthenticationManager\bin\Debug\net6.0\JWTAuthenticationManager.deps.json
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\JWTAuthenticationManager\bin\Debug\net6.0\JWTAuthenticationManager.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\JWTAuthenticationManager\bin\Debug\net6.0\JWTAuthenticationManager.pdb
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\JWTAuthenticationManager\obj\Debug\net6.0\JWTAuthenticationManager.csproj.AssemblyReference.cache
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\JWTAuthenticationManager\obj\Debug\net6.0\JWTAuthenticationManager.GeneratedMSBuildEditorConfig.editorconfig
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\JWTAuthenticationManager\obj\Debug\net6.0\JWTAuthenticationManager.AssemblyInfoInputs.cache
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\JWTAuthenticationManager\obj\Debug\net6.0\JWTAuthenticationManager.AssemblyInfo.cs
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\JWTAuthenticationManager\obj\Debug\net6.0\JWTAuthenticationManager.csproj.CoreCompileInputs.cache
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\JWTAuthenticationManager\obj\Debug\net6.0\JWTAuthenticationManager.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\JWTAuthenticationManager\obj\Debug\net6.0\refint\JWTAuthenticationManager.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\JWTAuthenticationManager\obj\Debug\net6.0\JWTAuthenticationManager.pdb
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\JWTAuthenticationManager\obj\Debug\net6.0\ref\JWTAuthenticationManager.dll

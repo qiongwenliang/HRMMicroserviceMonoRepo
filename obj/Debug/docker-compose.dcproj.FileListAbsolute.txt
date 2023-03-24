@@ -77,3 +77,11 @@ F:\ASP.NetProjects\HRMMicroserviceMonoRepo\bin\Debug\Microsoft.AspNetCore.Middle
 F:\ASP.NetProjects\HRMMicroserviceMonoRepo\bin\Debug\Microsoft.AspNetCore.JsonPatch.dll
 F:\ASP.NetProjects\HRMMicroserviceMonoRepo\bin\Debug\Newtonsoft.Json.Bson.dll
 F:\ASP.NetProjects\HRMMicroserviceMonoRepo\bin\Debug\APIGatewayLayer.pdb
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\bin\Debug\JWTAuthenticationManager.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\bin\Debug\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\bin\Debug\Microsoft.IdentityModel.Logging.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+F:\ASP.NetProjects\HRMMicroserviceMonoRepo\bin\Debug\JWTAuthenticationManager.pdb

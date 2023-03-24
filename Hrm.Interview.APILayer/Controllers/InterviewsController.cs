@@ -2,11 +2,13 @@
 
 using Hrm.Interview.ApplicationCore.Model.Request;
 using Hrm.Interview.ApplicationCore.ModelRef;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Hrm.Interview.APILayer.Controllers
 {
+    [Authorize(Roles = "Admin")]
     [Route("api/[controller]")]
     [ApiController]
     public class InterviewsController : ControllerBase

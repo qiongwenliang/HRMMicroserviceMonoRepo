@@ -1,11 +1,13 @@
 ﻿using Hrm.Recruiting.ApplicationCore.Contract.Service;
 using Hrm.Recruiting.ApplicationCore.Model;
 using Hrm.Recruiting.ApplicationCore.Model.Request;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Hrm.Recruiting.APILayer.Controller
 {
+    [Authorize(Roles ="Admin, Manager")]
     [Route("api/[controller]")]
     [ApiController]
     public class CandidateController : ControllerBase
